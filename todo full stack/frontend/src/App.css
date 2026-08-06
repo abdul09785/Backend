@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #bdbdbd;
+  background-color: #e9eef4;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+}
+
+.signup-page,
+.signin-page {
+  width: 320px;
+  margin: 60px auto;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup-title,
+.signin-title,
+.todo-title {
+  margin: 0 0 10px;
+  text-align: center;
+  color: #1f4e79;
+}
+
+.signup-input,
+.signin-input,
+.todo-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.signup-button,
+.signin-button,
+.todo-add-btn {
+  background-color: #2f6fb3;
+  color: white;
+  border-color: #2f6fb3;
+}
+
+.todo-box,
+.todo-page {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+}
+
+.todo-top {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.profile-btn {
+  background-color: #f7f7f7;
+}
+
+.logout-btn,
+.todo-delete-btn {
+  background-color: #f4dede;
+  color: #a33;
+  border-color: #d9b0b0;
+}
+
+.profile-box {
+  padding: 12px;
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 16px;
+}
+
+.profile-title {
+  margin: 0 0 8px;
+}
+
+.profile-text {
+  margin: 4px 0;
+}
+
+.profile-line {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0 0;
+}
+
+.todo-add-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.todo-item {
+  border: 1px solid #d8d8d8;
+  padding: 12px;
+  background-color: #fcfcfc;
+}
+
+.todo-item-title {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.todo-item-actions {
+  display: flex;
+  gap: 8px;
+}
